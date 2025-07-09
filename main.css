@@ -1,0 +1,86 @@
+.text {
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 10px #476ef7;
+    margin-top: 15px;
+    padding: 20px 0px;
+}
+
+#addbutton {
+    background-color: #476ef7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+.color{
+    background-color: red;
+    width: 30%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.size {
+    width: 20%;
+}
+
+.cards {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.transacationtable {
+    width: 95%;
+    margin: auto;
+    height: 60px;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+
+}
+
+@media only screen and (max-width:768px) {
+    .form {
+        flex-direction: column;
+        padding: auto;
+        margin: 2px;
+    }
+
+    .form-floating {
+        width: 95%;
+        margin: auto;
+        gap: 9px;
+    }
+
+    #addbutton {
+        height: 50px;
+        width: 50px;
+        border-radius: 8px;
+        width: 95%;
+        margin: auto;
+
+    }
+
+    .itemss {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: antiquewhite;
+        width: 45%;
+    }
+
+    .cards {
+        gap: 10px;
+
+    }
+}
